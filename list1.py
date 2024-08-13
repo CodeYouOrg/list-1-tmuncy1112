@@ -18,7 +18,7 @@ def match_ends(words):
     for word in words:
         if len(word) >= 2 and word[0] == word[-1]:
             count = count + 1
-    return count
+    return math_ends
 
     
 
@@ -41,7 +41,7 @@ for w in words:
         list_a.append(w)
     else:
         list_b.append(w)
-return sorted(list_a) + sorted(list_b)
+return front_x
 
 # C. sort_last
 # Given a list of non-empty tuples, return a list sorted in increasing
