@@ -18,7 +18,7 @@ def match_ends(words):
     for word in words:
         if len(word) >= 2 and word[0] == word[-1]:
             count = count + 1
-    return math_ends
+    return(count)
 
     
 
@@ -31,17 +31,15 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 
-def front_x(words):
-    # +++your code here+++
-    return
-list_a = []
-list_b = []
+def front_x(words): 
+  list_a = []
+  list_b = []
 for w in words:
     if w.startswith("x"):
         list_a.append(w)
     else:
         list_b.append(w)
-return front_x
+return(words)
 
 # C. sort_last
 # Given a list of non-empty tuples, return a list sorted in increasing
@@ -51,8 +49,7 @@ return front_x
 # Hint: use a custom key= function to extract the last element form each tuple.
 
 def sort_last(tuples):
-    sorted_list =
-    sorted(list_of_tuples, key=lambda x: x[-1])
+    sorted_list = sorted(list_of_tuples, key=lambda x: x[-1])
 
     return(sorted_list)
 
